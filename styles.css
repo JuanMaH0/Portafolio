@@ -1,0 +1,70 @@
+.card-img-top {
+    height: 620px;
+    object-fit: cover; /* Ajusta la imagen para que cubra el área sin distorsión */
+}
+.card {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+    overflow: hidden; 
+}
+
+.card:hover {
+    transform: scale(1.05); 
+}
+.card-img-top {
+    border-bottom: 2px solid #2980b9; 
+    border-radius: 10px 10px 0 0;
+}
+
+.card-title {
+    color: #2980b9; 
+    font-size: 1.5em;
+}
+
+.card-text {
+    font-size: 1em;
+    color: #7f8c8d; 
+}
+.social-buttons {
+    text-align: center; /* Centra los botones */
+    margin: 20px 0;
+}
+
+.social-buttons .btn {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: rgb(0, 38, 255);
+    font-size: 1.1em;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.btn-linkedin {
+    background-color: #0077b5;
+}
+
+.btn-twitter {
+    background-color: #1da1f2;
+}
+
+.btn-github {
+    background-color: #333;
+}
+
+.social-buttons .btn:hover {
+    opacity: 0.8; /* Cambia la opacidad al pasar el ratón */
+}
+#carruselDeImagenes {
+    max-width: 600px; /* Ajusta este valor al ancho máximo que desees */
+    margin: 0 auto;   /* Centra el carrusel en la página */
+  }
+  
+  #carruselDeImagenes .carousel-inner img {
+    max-height: 600px; /* Ajusta este valor a la altura máxima que desees */
+    object-fit: cover; /* Ajusta cómo se recortan las imágenes para llenar el espacio */
+    width: 100%;       /* Asegura que las imágenes ocupen el ancho completo del carrusel */
+  }
